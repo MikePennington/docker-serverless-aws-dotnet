@@ -18,3 +18,5 @@ RUN wget "https://bootstrap.pypa.io/get-pip.py" -O /tmp/get-pip.py \
     && pip install yq
 
 RUN npm install -g serverless@1.27.3
+
+RUN pip install awsebcli --upgrade --user
