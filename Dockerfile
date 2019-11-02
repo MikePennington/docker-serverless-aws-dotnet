@@ -18,7 +18,7 @@ RUN wget "https://bootstrap.pypa.io/get-pip.py" -O /tmp/get-pip.py \
     && pip install yq
 
 # Install serverless
-RUN npm install -g serverless@1.27.3
+RUN npm install -g serverless@1.56.1
 
 # Install elastic beanstalk cli
 RUN pip install awsebcli --upgrade --user
